@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4fc7921bf9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo..jpg" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!--<li><a href="#portfolio">Projects</a></li>-->
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fas fa-sharp fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1><span>Heyyy </span>I am Navansh Krishna<br>and I welcome you to my Portfolio Website</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="my_phtoto.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello!! I am Student of Electronics and Computer Engineering(ENC) @ Thapar Institute of Engineering and Technology. I am a football enthusiast , Fun loving person and loves to debate, I have attended 7 MUNs. I am also learning C++ for competitive coding and I am always very eager to learn new new things. I do know languages like Python, HTML5 ,CSS3 which I learnt in School. I am very good to talk.
+                        Love making new friends and talk to new people.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Hello')">Hello</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul style="list-style-type:square">
+                        <li><h2>Tech skills</h2></li>
+                        <ul>
+                            
+                            <li><span>Programming Language</span><br>Python<br>C<br>C++</li>
+                            <li><span>Web Devlopment</span><br>HTML5<br>CSS3</li>
+                            <li><span>Database</span><br>MySQL</li>
+                        </ul>
+                        </ul>
+                        <br>
+                        <br>
+                        <ul style="list-style-type:square">
+                        <li><h2>Other Than Tech</h2></li>
+                        </ul>
+                        <ul>
+                            <li><span>Likes playing GOOD FOOTBALL⚽</span></li>
+                            <li><span>Attended 7 MUNs(Model United Nations)</span></li>
+                            <li><span>Heritage and History excites me..Loves to explore✌️</span></li>
+                            <li><span>Car Enthusiast🚘</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                            <li><span>BTech(Electronics and Computer Engineering)</span><br>Thapar Institute of Engineering and Technology(2022-26)</li>
+                            <li><span>School</span><br>Little Angels High School(2020-22)<br>Passed with 95%</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="about-col-1" id="Hello">
+                    <img src="Myfamily.jpg">
+                </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-------portfolia----
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./StoryW.jpg">
+                    <div class="layer">
+                        <h3>
+                            Strory Generator
+                        </h3>
+                        <p>
+                            This module generates random Story. This module is based on Python
+                        </p>
+                        <a href="https://colab.research.google.com/drive/1F84ded3Q9b56cQFapvl9Vr7d_v1uIqDr?usp=sharing"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./AlarmC.jpg">
+                    <div class="layer">
+                        <h3>
+                            Alarm Clock
+                        </h3>
+                        <p>
+                            An alarm clock is a clock with a function that can be activated to ring at a time set in
+                            advance, used to wake someone up.
+                        </p>
+                        <a href="https://colab.research.google.com/drive/1vT9tKG1wflq-haPembS4A0at9HB-cqG8?usp=sharing"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>-
+                <div class="work">
+                    <img src="./EquationS.jpg">
+                    <div class="layer">
+                        <h3>
+                            Equation Solver
+                        </h3>
+                        <p>
+                            An equation solver through which the user can use to solve equation when there are two
+                            unkwown variables.
+                        </p>
+                        <a href="https://colab.research.google.com/drive/15tTxJyNqAcDH3QKEaZZF2ZFZecojn4So?usp=sharing"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="https://github.com/Rparakh24/projects" class="btn">See More</a>
+        </div>
+    </div>-->
+    <!--------contacts------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>navanshgoswami4@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/navansh-krishna-goswami-341713248/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/navansh_.g/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/navansh03"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <!--<a href="RonitParakh_Resume.pdf" download class = "btn btn2" href="">Download CV</a>-->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link")
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab")
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu")
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbza6lKRPGC_4vw0zOFrEtJFBppMGPEalLlorm6016Xuwd_kTUmCTN9JrdmE066cfFdR7g/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message Sent Successfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset();
+                    })
+            })
+                .catch(error => console.error('Error!', error.message))
+
+        </script>
+</body>
+
+</html>
